@@ -57,7 +57,7 @@ export default function HeroSection() {
           <img
             src={heroImage}
             alt="Hero"
-            className="w-full h-full object-cover z-10"
+            className="w-full h-full object-contain sm:object-cover z-10"
           />
 
           <img
