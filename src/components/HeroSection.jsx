@@ -47,7 +47,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="relative w-full md:w-[500px] h-[300px] md:h-full flex justify-center items-center overflow-visible">
+        <div className="relative w-full md:w-[500px] h-[320px] sm:h-[360px] md:h-full flex justify-center items-center overflow-visible">
           <img
             src={topStar}
             alt="Top Star"
