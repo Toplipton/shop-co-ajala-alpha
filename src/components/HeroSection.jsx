@@ -6,6 +6,7 @@ export default function HeroSection() {
   return (
     <section className="bg-[#F0F0F0] px-4 sm:px-6 md:px-16 py-10 md:py-0 flex items-center min-h-[550px] md:h-[500px] overflow-hidden">
       <div className="flex flex-col md:flex-row justify-between items-center w-full gap-10">
+        {/* Text Content */}
         <div className="max-w-xl text-center md:text-left space-y-6">
           <h1 className="text-4xl md:text-5xl font-bold text-black leading-snug font-integral">
             FIND CLOTHES
@@ -25,6 +26,7 @@ export default function HeroSection() {
             Shop Now
           </button>
 
+          {/* Stats */}
           <div className="flex flex-wrap justify-center md:justify-start gap-6 pt-4 text-black font-semibold">
             <div>
               <h3 className="text-2xl font-bold font-satoshi">200+</h3>
@@ -47,7 +49,8 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="relative w-full md:w-[500px] h-[320px] sm:h-[360px] md:h-full flex justify-center items-center overflow-visible">
+        {/* Image Section */}
+        <div className="relative w-full md:w-[500px] h-[400px] sm:h-[460px] md:h-full flex justify-center items-center overflow-hidden">
           <img
             src={topStar}
             alt="Top Star"
@@ -57,7 +60,7 @@ export default function HeroSection() {
           <img
             src={heroImage}
             alt="Hero"
-            className="w-full h-full object-contain sm:object-cover z-10"
+            className="w-full h-full object-cover object-top sm:object-center z-10 rounded-lg"
           />
 
           <img

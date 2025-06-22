@@ -14,4 +14,3 @@ export default function Brand() {
     </section>
   );
 }
-F
